@@ -7,7 +7,7 @@ import re
 import os
 import time
 import datetime
-from def import *
+from defs import *
 from translate import Translator
 updater = Updater(token='1482991149:AAEZ6KBmzIXM0hsvtN18TsbfsQkqcTekXMM', use_context=True)
 
