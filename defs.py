@@ -651,7 +651,7 @@ def draw(update, context, fim=False, novato=True):
     import json
     from time import sleep
     sleep(2)
-    arquivo = open("c:/Program Files/Python38/Scripts/dados.txt", 'rt')
+    arquivo = open("dados.txt", 'rt')
     texto = arquivo.readlines()
     print(texto)
     arquivo.close()
